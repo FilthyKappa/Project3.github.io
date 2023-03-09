@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absorption Costing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 align="center"> Income statement under Absorption costing</h1>
+    <br>
+    <div class="main">
+        <div class="table" align="center">
+            <table bgcolor="white">
+                <tr bgcolor="#835cd6">
+                    <th width="100">Particular</th>
+                    <th width="100">Details</th>
+                    <th width="100">Amount</th>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="a1" style="font-family: Tilt Neon;"  placeholder="Sales revenue"></td>
+                    <td></td>
+                    <td id="a2"></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td>Less:Mfg Cogs</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="b1" style="font-family: Tilt Neon;"placeholder="Direct Material"></td>
+                    <td id="b2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="c1" style="font-family: Tilt Neon;" placeholder="Direct Labor"></td>
+                    <td id="c2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="d1" style="font-family: Tilt Neon;" placeholder="Direct Expenses"></td>
+                    <td id="d2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="e1" style="font-family: Tilt Neon;" placeholder="Variable mfg ohs"></td>
+                    <td id="e2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="f1" style="font-family: Tilt Neon;" placeholder="Fixed mfg ohs"></td>
+                    <td id="f2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td>---</td>
+                    <td id="a"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="g1" style="font-family: Tilt Neon;" placeholder="Add:O/S"></td>
+                    <td id="g2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="h1" style="font-family: Tilt Neon;" placeholder="Less:C/S"></td>
+                    <td id="h2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td>---</td>
+                    <td id="b"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input style="font-family: Tilt Neon;" id="i1" placeholder="Add:Under absorption"></td>
+                    <td id="i2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="j1" style="font-family: Tilt Neon;" placeholder="Less:Over absorption"></td>
+                    <td id="j2"></td>
+                    <td id="j3"></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td>Gross Profit Margin</td>
+                    <td></td>
+                    <td id="gpm"></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td>Less: non mfg overhead</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="k1"style="font-family: Tilt Neon;" placeholder="Var selling & dist"></td>
+                    <td id="k2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="l1" style="font-family: Tilt Neon;" placeholder="Var office & admin"></td>
+                    <td id="l2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="m1" style="font-family: Tilt Neon;" placeholder="fixed selling & dist"></td>
+                    <td id="m2"></td>
+                    <td></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td><input id="n1" style="font-family: Tilt Neon;" placeholder="fixed office & admin"></td>
+                    <td id="n2"></td>
+                    <td id="n3"></td>
+                </tr>
+                <tr bgcolor="#835cd6">
+                    <td>Net income/loss</td>
+                    <td></td>
+                    <td id="ans"></td>
+                </tr>    
+            </table>
+        </div>
+        <br>
+        <br>
+        <div class="calb" align="center">
+            <button  id="finalb" style="font-family: Tilt Neon; font-size: 19px;">Calculate</button>
+        </div>  
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

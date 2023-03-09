@@ -1,0 +1,13 @@
+body{
+    background-color: #835cd6;
+}
+h1{
+    color:white;
+    font-family:"Tilt Neon";
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width:1px;
+    font-size: 35px;
+}
+.table{
+    font-family:"Tilt Neon";
+}
